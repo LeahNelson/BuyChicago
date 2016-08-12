@@ -1,0 +1,30 @@
+{
+  "name": "buychicago",
+  "version": "1.0.0",
+  "description": "website for viewing city of chicago owned properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeahNelson/BuyChicago.git"
+  },
+  "author": "Leah Nelson <webdevleah@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeahNelson/BuyChicago/issues"
+  },
+  "homepage": "https://github.com/LeahNelson/BuyChicago#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-live-server": "0.0.30"
+  }
+}
