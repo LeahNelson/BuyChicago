@@ -20,7 +20,8 @@
     "bcrypt": "^0.8.7",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "sqlite3": "^3.1.4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
