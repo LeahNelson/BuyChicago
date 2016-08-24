@@ -1,0 +1,9 @@
+.row {
+  border: 10px;
+}
+
+#map {
+  width: 800px;
+  height: 600px;
+  background-color: #CCC;
+}
