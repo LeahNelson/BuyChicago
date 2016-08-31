@@ -1,30 +1,36 @@
-<h1>Hello I am working</h1>
+<h1 id="title">Buy Chicago!</h1>
 
 <div class = "container">
   <div class="row">
-    <div class="col-md-9 col-md-push-3">Content
-      <h1>Buy Chicago!</h1>
+    <div class="col-md-9 col-md-push-3">
+      
 
-      <p>Did you know that there are hundreds of city of Chicago owned vacant buildings available for purchase?<em>Buy Chicago</em> Can help you find properties that are available and also provide guidance on the purchase process.</p>
-
+      <h2>Did you know that there are thousands of city of Chicago owned vacant buildings available for purchase?<br><em>Buy Chicago</em> Can help you find properties that are available. </h2>
+      <br>
       <form id="search" class="input-group" method="POST">
-        <input id="search-input" name="q" type="text" class="query form-control" placeholder="Search by adress or zip code" />
+        <input id="search-input" name="q" type="text" class="query form-control" placeholder="Search by adress, zip code, or neighborhood" />
       </form>
+      <br>
+      <br>
+      <br>
 
       <ul id="map"></ul>
     
       
     </div>
-    <div class="col-md-3 col-md-pull-9">Sidebar
+    <div class="col-md-3 col-md-pull-9">
       <div class = "login-form">
-        <form method="post" action="/">
+        {{!-- <form method="post" action="/">
           <h3>Sign In</h3>
           <input  id="form-username" type="text" name="email" placeholder="username" value="">
           <input id="form-password" type="text" name="password" placeholder="password" value="">
           </br>
           <button class = "login-btn">login</button>
-        </form>
-      </div>  
+        </form> --}}
+      </div> 
+      <div id="property-info">
+
+      </div> 
     </div>
   </div> 
 </div>

@@ -4,6 +4,7 @@
 var mongoose = require('mongoose');
 
 var PropertySchema = new mongoose.Schema ({
+  pinNum:               String,
   pin:                  String,
   streetNumber:         Number,
   dir:                  String,
