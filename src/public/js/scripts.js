@@ -72,7 +72,7 @@ $.ajax({
                   +        '<p>' + 'Zoning Classification: ' + response[0].zoningClassification + '</p>'
                   +        '<p>' + 'Ward: ' + response[0].ward + '</p>'
                   +        '<p>'+'TIF District: ' +response[0].tifdistrict+'</p>'
-                  +        '<p id="property-close" class="btn btn-primary" role="submit">Close</p>'
+                  // +        '<p id="property-close" class="btn btn-primary" role="submit">Close</p>'
                   +      '</div>'
                   +    '</div>'
                   // +  '</div>'
