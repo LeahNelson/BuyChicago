@@ -49,6 +49,10 @@ $(window).load(function() {
 
                 google.maps.event.addListener(infowindow, 'domready', function() {
                     $("#property-detail").click(function(e) {
+                        $('html, body').animate({
+                            scrollTop: $("#property-info").offset().top
+                        }, 2000);
+
                         var pin = $("#property-pin").contents();
                         var match = pin[0].data;
 
@@ -86,7 +90,9 @@ $(window).load(function() {
                                     +
                                     '</div>'
 
-                                $("#property-info").append(html);
+                                $("#property-info").append(html)
+
+
                                 console.log("button clicked");
                                 console.log(match);
                                 console.log(response)
